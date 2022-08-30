@@ -6,6 +6,6 @@ int a = int.Parse(Console.ReadLine());
 int i = a*-1;
 while (i <= a)
 {
-    Console.Write($"{i},");
+    Console.WriteLine(i);
     i = i + 1;
 }
