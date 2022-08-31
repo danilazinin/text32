@@ -3,7 +3,7 @@
 //5 -> Пятница
 Console.WriteLine("Введите число от 1 до 7:");
 int a = int.Parse(Console.ReadLine());
-string[] weekDays = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятницат", "Суббота", "Воскресенье" };
+string[] weekDays = new string[] { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
 if (a > 0 && a < 8) {
     Console.WriteLine(weekDays[a-1]);
 }
